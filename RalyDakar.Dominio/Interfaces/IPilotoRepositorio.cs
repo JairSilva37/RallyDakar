@@ -11,6 +11,8 @@ namespace RallyDakar.Dominio.Interfaces
         Piloto Obter(int pilotoId);
 
         bool Existe(int pilotoId);
+        void Atualizar(Piloto piloto);
+        void Deletar(Piloto piloto);
 
         //bool Existe(Piloto piloto); mais indicado
 

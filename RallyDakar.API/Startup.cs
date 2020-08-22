@@ -26,7 +26,7 @@ namespace RallyDakar.API
                 ServiceLifetime.Scoped,
                 ServiceLifetime.Scoped
             );
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
 
             services.AddScoped<IPilotoRepositorio, PilotoRepositorio>();
         }
